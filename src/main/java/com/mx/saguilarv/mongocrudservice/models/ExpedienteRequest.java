@@ -1,11 +1,11 @@
 package com.mx.saguilarv.mongocrudservice.models;
 
-import org.springframework.data.annotation.Id;
+import lombok.Getter;
+import lombok.Setter;
 
+@Getter
+@Setter
 public class ExpedienteRequest {
-
-    @Id
-    private String id;
 
     private String cliente;
 
